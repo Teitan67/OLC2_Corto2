@@ -2,7 +2,7 @@
 Corto 2.
 Compiladores 2.
 
-NOTA: La aplicacion es echa con javascript puro por lo que se puede descargar y usar de manera local sin instalar absolutamente nada!!
+# NOTA: La aplicacion esta hecha con javascript puro por lo que se puede descargar y usar de manera local sin instalar absolutamente nada!!#
 
 Esquema de traducción dirigida por la sintaxis para generar código 3 direcciones
 ![Alt text](Screenshot2.png?raw=true "Figura de la aplicacion")
