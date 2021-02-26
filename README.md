@@ -1,8 +1,11 @@
 # OLC2_Corto2
 Corto 2.
 Compiladores 2.
+
+NOTA: La aplicacion es echa con javascript puro por lo que se puede descargar y usar de manera local sin instalar absolutamente nada!!
+
 Esquema de traducción dirigida por la sintaxis para generar código 3 direcciones
-![Alt text](Screenshot.png?raw=true "Figura de la aplicacion")
+![Alt text](Screenshot2.png?raw=true "Figura de la aplicacion")
 
 
 La aplicacion consiste en una interfaz grafica sencilla donde podemos colocar entradas de expresiones aritmeticas como:
