@@ -3,6 +3,8 @@ Corto 2.
 Compiladores 2.
 Esquema de traducción dirigida por la sintaxis para generar código 3 direcciones
 ![Alt text](Screenshot.png?raw=true "Figura de la aplicacion")
+
+
 La aplicacion consiste en una interfaz grafica sencilla donde podemos colocar entradas de expresiones aritmeticas como:
 (a + b) * (a + c)
 x * x
