@@ -9,20 +9,33 @@ Esquema de traducción dirigida por la sintaxis para generar código 3 direccion
 
 
 La aplicacion consiste en una interfaz grafica sencilla donde podemos colocar entradas de expresiones aritmeticas como:
+
 (a + b) * (a + c)
+
 x * x
+
 
 Cabe resaltar que podemos colocar varias al mismo tiempo si colocamos ; al final como esta la siguiente entrada:
 (a + b) * (a + c);
+
 x * x;
+
 y * y;
+
 x2 + y2;
+
 b + c + d;
+
 a * a + b * b;
+
 5 + 2 * b;
+
 6 + 7 * 10+5 / 1;
+
 ((7 + 9)/(((3 + 1) * (6 + 7) + 8) * 7) / 9) + 100;
+
 7 * 9 - 89 + 63;
+
 
 Usando la gramatica vista en clase podemos hacer la traduccion, en la implementacion se especifico la presedencia con la herramienta 
 %left '+' '-'
@@ -34,10 +47,15 @@ Las entradas del ejercicio obtubieron estos resultados:
 
 (a + b) * (a + c);
 
+
 t0=a+b
+
 t1=a+c
+
 t2=t0*t1
+
 La respuesta es :t2
+
 
 Y asi se da una a una, para la entrada con ; para evaluarlas todas a la vez se uso la entrada que se muesta arriba y obtuvimos el siguiente resultado:
 
